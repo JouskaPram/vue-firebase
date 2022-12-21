@@ -29,7 +29,7 @@
 <script>
 
 import db from '../config/firebase.js'
-import { collection, addDoc } from "firebase/firestore"; 
+import { collection, addDoc, deleteDoc } from "firebase/firestore"; 
  // import firebase from 'firebase/app'
   export default {
  data(){
@@ -63,6 +63,7 @@ if(docRef) {
       }
 
     },
+    
     }
   }
 </script>
